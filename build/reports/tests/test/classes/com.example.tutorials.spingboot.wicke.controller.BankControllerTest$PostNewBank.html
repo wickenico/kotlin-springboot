@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.038s</div>
+<div class="counter">0.035s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,12 +79,12 @@
 </thead>
 <tr>
 <td class="success">should add the new bank()</td>
-<td class="success">0.010s</td>
+<td class="success">0.009s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">should return BAD REQUEST if bank with given account number already exists()</td>
-<td class="success">0.028s</td>
+<td class="success">0.026s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -92,12 +92,12 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>2022-05-20 14:35:47.752  INFO 4051 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.tutorials.spingboot.wicke.controller.BankControllerTest$PostNewBank], using SpringBootContextLoader
-2022-05-20 14:35:47.752  INFO 4051 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.example.tutorials.spingboot.wicke.controller.BankControllerTest$PostNewBank]: no resource found for suffixes {-context.xml, Context.groovy}.
-2022-05-20 14:35:47.752  INFO 4051 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.tutorials.spingboot.wicke.controller.BankControllerTest$PostNewBank]: PostNewBank does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2022-05-20 14:35:47.754  INFO 4051 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.tutorials.spingboot.wicke.WickeApplication for test class com.example.tutorials.spingboot.wicke.controller.BankControllerTest$PostNewBank
-2022-05-20 14:35:47.755  INFO 4051 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
-2022-05-20 14:35:47.756  INFO 4051 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@315b5913, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2e929182, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@5423a17, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@42ff9a77, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2987d0fa, org.springframework.test.context.support.DirtiesContextTestExecutionListener@13234ac9, org.springframework.test.context.event.EventPublishingTestExecutionListener@7254838, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@39374689, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2e204155, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@27dc335a, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@a95cb11, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@915d7c4, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2513155a]
+<pre>2022-05-20 14:53:45.000  INFO 4573 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.tutorials.spingboot.wicke.controller.BankControllerTest$PostNewBank], using SpringBootContextLoader
+2022-05-20 14:53:45.000  INFO 4573 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.example.tutorials.spingboot.wicke.controller.BankControllerTest$PostNewBank]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-05-20 14:53:45.000  INFO 4573 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.tutorials.spingboot.wicke.controller.BankControllerTest$PostNewBank]: PostNewBank does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2022-05-20 14:53:45.002  INFO 4573 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.tutorials.spingboot.wicke.WickeApplication for test class com.example.tutorials.spingboot.wicke.controller.BankControllerTest$PostNewBank
+2022-05-20 14:53:45.003  INFO 4573 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-05-20 14:53:45.003  INFO 4573 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@65fc8edc, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@a357c3e, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7740b0ab, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3eb9c575, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3f322610, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1e477944, org.springframework.test.context.event.EventPublishingTestExecutionListener@6cf047cf, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1c92a549, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@323e026d, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1716c037, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@79b63325, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@708769b7, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@32e830a0]
 
 MockHttpServletRequest:
       HTTP Method = POST
@@ -183,7 +183,7 @@ MockHttpServletResponse:
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 7.4.1</a> at 20.05.2022, 14:35:47</p>
+<a href="http://www.gradle.org">Gradle 7.4.1</a> at 20.05.2022, 14:53:45</p>
 </div>
 </div>
 </body>
